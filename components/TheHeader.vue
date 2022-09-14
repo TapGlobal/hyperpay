@@ -9,7 +9,7 @@
         <a class="navbar-item" href="/"
           ><img
             class="w-[100px] md:w-[240px]"
-            src="https://ava.do/static/media/avado-logo-v1.1.60dfafad.svg"
+            src="../assets/images/avado-logo.svg"
             alt="AVADO: Your personal gateway to the decentralized web"
             /></a
         >
@@ -36,7 +36,7 @@
                 <a
                   class="button buttonmargin is-success is-outlined is-medium"
                   href="/merge-node"
-                  >Order my AVADO</a
+                  >Run validator</a
                 >
               </p>
             </div>

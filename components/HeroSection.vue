@@ -9,7 +9,7 @@
                 <img src="https://d33wubrfki0l68.cloudfront.net/61ec7803583a422da534c5311b4fa0915617385d/899dc/static/media/hero-stripes-v1.0.39397a93.svg" alt="">
                 <img
                 class="absolute top-0"
-                  src="https://ava.do/static/media/case_rev2_2.045ccdfe.webp"
+                  src="../assets/images/image-1.webp"
                   alt="AVADO the number one plug-and-play staking solution"
                   width="800px"
                 />
@@ -35,9 +35,9 @@
                 <a
                   class="button is-primary is-outlined is-large"
                   href="/merge-node"
-                  >Find out more</a
+                  >Merge</a
                 ><a class="md:ml-5  button is-success is-large" href="/merge-node"
-                  >Order my AVADO</a
+                  >Run validator</a
                 >
               </div>
             </div>

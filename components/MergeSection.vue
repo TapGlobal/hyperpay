@@ -20,15 +20,15 @@
                 <a
                   class="button is-primary is-outlined is-large"
                   href="/merge-node"
-                  >Find out more</a
+                  >Merge</a
                 ><a class="md:ml-5 button is-success is-large" href="/merge-node"
-                  >Order my AVADO</a
+                  >Run validator</a
                 >
               </div>
             </div>
             <div class="column hidden md:block is-hidden-mobile p-4 w-full md:w-3/6">
               <img
-                src="https://ava.do/static/media/rocket.d4965b4a.png"
+                src="../assets/images/image-1.png"
                 alt="ETH fees will skyrocket after the merge"
               />
             </div>

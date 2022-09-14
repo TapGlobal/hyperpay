@@ -31,16 +31,16 @@
                 <a
                   class="button is-primary is-outlined is-large"
                   href="/merge-node"
-                  >Find out more</a
+                  >Merge</a
                 ><a class="md:ml-5 button is-success is-large" href="/merge-node"
-                  >Order my AVADO</a
+                  >Run validator</a
                 >
               </div>
             </div>
             <div class="column hidden md:block is-hidden-mobile p-4 w-full md:w-3/6">
               <img
                 class="iso-tilt-right"
-                src="https://ava.do/static/media/AVADO-UI-screenshot.aa19ce0e.png"
+                src="../assets/images/image-2.png"
                 alt="AVADO gives you Web3 access and a personal home server based on AvadoOS"
               />
             </div>
