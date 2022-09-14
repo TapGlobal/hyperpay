@@ -36,7 +36,7 @@
                 <a
                   class="button buttonmargin is-success is-outlined is-medium"
                   href="/merge-node"
-                  >Run validator</a
+                  >Purchase Node</a
                 >
               </p>
             </div>
