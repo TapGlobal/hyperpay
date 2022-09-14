@@ -21,7 +21,7 @@
                   class="button is-primary is-outlined is-large"
                   href="/merge-node"
                   >Merge</a
-                ><a class="md:ml-5 button is-success is-large" href="/merge-node"
+                ><a class="ml-5 button is-success is-large" href="/merge-node"
                   >Run validator</a
                 >
               </div>
