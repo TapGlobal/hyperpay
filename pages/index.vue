@@ -1,17 +1,13 @@
 <template>
-  <div>
-    <HeroSection />
-    <MergeSection />
-    <AboutSection />
+  <div class="h-full bg-[#0D1017]">
+    <SignupSection />
   </div>
 </template>
 
 <script>
-import MergeSection from '~/components/MergeSection.vue';
-import AboutSection from '~/components/AboutSection.vue';
-import HeroSection from '~/components/HeroSection.vue';
+import SignupSection from '~/components/SignupSection.vue';
 export default {
     name: "IndexPage",
-    components: { MergeSection, AboutSection, HeroSection }
+    components: { SignupSection }
 }
 </script>

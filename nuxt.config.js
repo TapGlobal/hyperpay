@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'AVADO - Run Your Own Node',
+    title: 'FTX Cryptocurrency Exchange',
     htmlAttrs: {
       lang: 'en',
     },
@@ -12,12 +12,12 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'The easiest hardware to run blockchain nodes like Bitcoin and Ethereum, stake ETH2.0 and participate in decentralized networks that reward you in crypto.',
+          'Trade Anywhere & Anytime',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect",  href:"https://fonts.gstatic.com" },
       { href: "https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap", rel:"stylesheet"}
