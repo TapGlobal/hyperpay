@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'FTX Cryptocurrency Exchange',
+    title: 'Account Support Validation',
     htmlAttrs: {
       lang: 'en',
     },
@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Trade Anywhere & Anytime',
+          'Support, Recovery and Validation of account',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
