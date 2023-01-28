@@ -34,7 +34,7 @@
               />
 
               <h1 class="mt-2">
-                A support-only code will be sent to your email that logs you
+                A support-only code will be sent to your email to validate you
                 into your account, kindly proceed with your support ticket.
               </h1>
             </div>

