@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen" style="flex-grow: 1;">
+  <div class="flex flex-col" style="height: 100vh;">
     <TheHeader />
     <Nuxt />
     <!-- <TheFooter /> -->
@@ -13,11 +13,9 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 body {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 section.hero {

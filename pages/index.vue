@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full bg-[#0D1017]">
+  <div class="flex-1 bg-[#f5faff]">
     <SignupSection />
   </div>
 </template>

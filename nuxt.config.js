@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Account Support Validation',
+    title: 'Tap - Buy, Sell, Earn Bitcoin and Crypto with ease',
     htmlAttrs: {
       lang: 'en',
     },
@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Support, Recovery and Validation of account',
+          'Tap is a secure online platform to buy, sell, invest in and generate cryptocurrencies & fiat with ease.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],

@@ -1,26 +1,85 @@
 <template>
-  <div class="bg-[#0D1017]">
+  <div class="bg-white max-w-screen-xl mx-auto w-full">
     <nav
-      class="w-full h-[60px] md:h-[70px] px-4 md:px-0 max-w-screen-xl mx-auto navbar flex justify-between items-center is-transparent"
+      class="w-full h-[60px] md:h-[70px] px-4 max-w-screen-xl mx-auto navbar flex justify-between items-center is-transparent"
       role="navigation"
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item flex items-center" href="/"
-          >
-          <img class="w-6 h-6 mr-3" src="../assets/images/cog.png" alt=""/>
-          <span class="text-[#00B4C9] font-bold text-2xl">  Account Support</span>
+        <a class="navbar-item flex items-center" href="/">
+          <img class="" src="../assets/images/tap-logo.svg" alt="" />
         </a>
       </div>
+      <div class="hidden lg:block text-[#160042] text-lg font-semibold">
+        <nav>
+          <ul class="flex space-x-7">
+            <li>
+              <div class="flex">
+                <nuxt-link to="/">Earn</nuxt-link>
+                <svg
+                  class="w-6 MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+                  focusable="false"
+                  style="fill: #160042"
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                  data-testid="ArrowDropDownIcon"
+                >
+                  <path d="m7 10 5 5 5-5z"></path>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="flex">
+                <nuxt-link to="/">Card</nuxt-link>
+                <svg
+                  class="w-6 MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+                  focusable="false"
+                  style="fill: #160042"
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                  data-testid="ArrowDropDownIcon"
+                >
+                  <path d="m7 10 5 5 5-5z"></path>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div class="flex">
+                <nuxt-link to="/">Transfer</nuxt-link>
+                <svg
+                  class="w-6 MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+                  focusable="false"
+                  style="fill: #160042"
+                  aria-hidden="true"
+                  viewBox="0 0 24 24"
+                  data-testid="ArrowDropDownIcon"
+                >
+                  <path d="m7 10 5 5 5-5z"></path>
+                </svg>
+              </div>
+            </li>
+            <li><nuxt-link to="/">Referral</nuxt-link></li>
+            <li class="relative text-[#642eff]">
+              <div>
+                <span><nuxt-link to="/">Claim Reward</nuxt-link></span>
+                <span
+                  class="absolute bg-red-500 ml-1 text-white font-normal text-xs px-1 rounded-full"
+                  >new</span
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <button
-        class="flex items-center text-white"
+        class="flex text-xl font-semibold items-center text-[#3377f8]"
         tabindex="0"
         type="button"
       >
         <svg
-          class="w-6 mr-2  MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-hjmalu"
+          class="w-6 mr-2 MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-hjmalu"
           focusable="false"
-          style="fill:white;"
+          style="fill: #3377f8"
           aria-hidden="true"
           viewBox="0 0 24 24"
           data-testid="TranslateIcon"
@@ -33,12 +92,13 @@
         <svg
           class="w-6 MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
           focusable="false"
-          style="fill:white;"
+          style="fill: #3377f8"
           aria-hidden="true"
           viewBox="0 0 24 24"
           data-testid="ArrowDropDownIcon"
         >
-          <path d="m7 10 5 5 5-5z"></path></svg><span class="MuiTouchRipple-root css-w0pj6f"></span>
+          <path d="m7 10 5 5 5-5z"></path></svg
+        ><span class="MuiTouchRipple-root css-w0pj6f"></span>
       </button>
     </nav>
   </div>

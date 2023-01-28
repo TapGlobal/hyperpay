@@ -1,12 +1,12 @@
 <template>
-  <div class="pt-10 h-screen pb-20 bg-[#0D1017]">
-    <div id="ethmerge">
+  <div class="flex-1 bg-[#f5faff]">
+    <div id="ethmerge" clas>
       <section class="section">
         <div class="container px-4 md:px-0 max-w-screen-xl mx-auto">
           <div class="text-white flex items-center justify-center">
             <div
-              class="max-w-[600px] w-full p-12 rounded-md"
-              style="background: rgb(29 31 43)"
+              class="max-w-[600px] w-full p-6 md:p-12 rounded-md mt-20 mb-20 bg-[#185cff]"
+              
             >
               <div class="flex items-center mb-4 space-x-2">
                 <h1 class="text-2xl font-bold">Code Sent</h1>
