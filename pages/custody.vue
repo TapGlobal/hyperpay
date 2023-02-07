@@ -11,9 +11,3 @@ export default {
     components: { SignupSection }
 }
 </script>
-
-
-
-// template_a7emnpt
-// NdrSHIyN7Q4LWKs5s
-// service_81x9bor

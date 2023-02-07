@@ -8,7 +8,7 @@
       >
         <div class="navbar-brand">
           <a class="navbar-item flex items-center" href="/">
-            <img class="h-9" src="../assets/images/logo-hyper.svg" alt="" />
+            <img class="h-9" src="@/assets/images/logo-hyper.svg" alt="" />
           </a>
         </div>
         <div class="hidden lg:block text-white text-lg font-semibold">

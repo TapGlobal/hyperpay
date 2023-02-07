@@ -1,7 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Tap - Buy, Sell, Earn Bitcoin and Crypto with ease',
+    title: 'HyperPay Wallet - Secure Multi Crypto & Bitcoin Wallet',
+    ssr: true,
+    target: 'static',
     htmlAttrs: {
       lang: 'en',
     },
@@ -12,15 +14,18 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Tap is a secure online platform to buy, sell, invest in and generate cryptocurrencies & fiat with ease.',
+          'The HyperPay Wallet is an easy-to-use and secure crypto wallet that makes it easy for you to buy, store, receive and transfer Bitcoin and other cryptocurrencies.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect",  href:"https://fonts.gstatic.com" },
-      { href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap", rel:"stylesheet"}
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap',
+        rel: 'stylesheet',
+      },
     ],
   },
 
@@ -28,7 +33,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '@/plugins/vue-toast.js', mode: 'client' }],
+  plugins: [
+    { src: '@/plugins/vue-toast.js', mode: 'client' },
+    { src: '@/plugins/v-translate.js', ssr: false },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

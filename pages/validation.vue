@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-1 bg-[#f5faff]">
+  <div class="flex-1 bg-[#0a1829]">
     <div id="ethmerge" clas>
       <section class="section">
         <div class="container px-4 md:px-0 max-w-screen-xl mx-auto">
